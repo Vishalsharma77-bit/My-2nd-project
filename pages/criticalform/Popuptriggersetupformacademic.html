@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Project Admin</title>
+ 
+    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
+   
+    <link rel="stylesheet" href="../../assets/css/style.css">
+
+    <link rel="shortcut icon" href="../../assets/images/favicon.ico" />
+  </head>
+  <body>
+    <div class="container-scroller">
+      
+      <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+          <a class="navbar-brand brand-logo" href="../../index.html"><img src="../../assets/images/logo-mini.svg" alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../assets/images/logo-mini.svg" alt="logo" /></a>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-stretch">
+          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+            <span class="mdi mdi-menu"></span>
+          </button>
+        
+          <ul class="navbar-nav navbar-nav-right">
+            <li class="nav-item nav-profile dropdown">
+              <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+              
+                <div class="nav-profile-text">
+                  <p class="mb-1 text-black">Dr. Kirpa Ram</p>
+                </div>
+              </a>
+            
+            </li>
+         
+        
+            <li class="nav-item nav-logout d-none d-lg-block">
+              <a class="nav-link" href="#">
+                <i class="mdi mdi-power"></i>
+              </a>
+            </li>
+           
+          </ul>
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+            <span class="mdi mdi-menu"></span>
+          </button>
+        </div>
+      </nav>
+    
+      <div class="container-fluid page-body-wrapper">
+      
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <li class="nav-item nav-profile">
+              <a href="#" class="nav-link">
+               
+                <div class="nav-profile-text d-flex flex-column">
+                  <span class="font-weight-bold mb-2">Dr. Kirpa Ram</span>
+                  <span class="text-secondary text-small">Project Manager</span>
+                </div>
+                <i class="mdi mdi-bookmark-check text-success nav-profile-badge"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">
+                <span class="menu-title">Dashboard</span>
+                <i class="mdi mdi-home menu-icon"></i>
+              </a>
+            </li>
+               <!-- Academic Portal -->
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="collapse" href="#academic-portal" aria-expanded="false" aria-controls="academic-portal">
+        <span class="menu-title">Academic Portal</span>
+        <i class="menu-arrow"></i>
+        <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+      </a>
+      <div class="collapse" id="academic-portal">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="../academic/academictaskcreation.html">Create Task</a></li>
+          <li class="nav-item"> <a class="nav-link" href="../academic/communicationpages.html">Communications</a></li>
+          <li class="nav-item"> <a class="nav-link" href="../academic/Emaillinkintegrationformacademic.html">Email</a></li>
+          <li class="nav-item"> <a class="nav-link" href="../academic/Todoacademic.html">Todo List</a></li>
+        </ul>
+      </div>
+    </li>
+    
+    <!-- Project Portal -->
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="collapse" href="#project-portal" aria-expanded="false" aria-controls="project-portal">
+        <span class="menu-title">Project Portal</span>
+        <i class="menu-arrow"></i>
+        <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+      </a>
+      <div class="collapse" id="project-portal">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="../project/projecttaskcreation.html">Create Task</a></li>
+          <li class="nav-item"> <a class="nav-link" href="../project/communicationproject.html">Communications</a></li>
+          <li class="nav-item"> <a class="nav-link" href="../project/Emaillinkintegrationformproject.html">Email</a></li>
+          <li class="nav-item"> <a class="nav-link" href="../project/Todoproject.html">Todo List</a></li>
+          
+        </ul>
+      </div>
+    </li>
+ 
+    
+             <!-- Consistency Portal -->
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="collapse" href="#consistency-portal" aria-expanded="false" aria-controls="consistency-portal">
+        <span class="menu-title">Consistency Portal</span>
+        <i class="menu-arrow"></i>
+        <i class="mdi mdi-medical-bag menu-icon"></i>
+      </a>
+      <div class="collapse" id="consistency-portal">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="consistancytaskcreation.html">Create Task</a></li>
+          <li class="nav-item"> <a class="nav-link" href="communicationconsistancy.html">Communications</a></li>
+          <li class="nav-item"> <a class="nav-link" href="Emaillinkintegrationformconstistancy.html">Email</a></li>
+          <li class="nav-item"> <a class="nav-link" href="Todoconsistancy.html">Todo List</a></li>
+        </ul>
+      </div>
+    </li>
+            <!-- automated response Portal -->
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#automated-portal" aria-expanded="false" aria-controls="automated-portal">
+                <span class="menu-title">Automated Portal</span>
+                <i class="menu-arrow"></i>
+                <i class="mdi mdi-medical-bag menu-icon"></i>
+              </a>
+              <div class="collapse" id="automated-portal">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="../automatedresponse/Automatedreplysetuppageacademic.html">Automated Reply</a></li>
+                    </ul>
+              </div>
+            </li>
+                <!-- critical reminder Portal -->
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" href="#critical-portal" aria-expanded="false" aria-controls="critical-portal">
+          <span class="menu-title">Critical Reminder System</span>
+          <i class="menu-arrow"></i>
+          <i class="mdi mdi-medical-bag menu-icon"></i>
+        </a>
+        <div class="collapse" id="critical-portal">
+          <ul class="nav flex-column sub-menu">
+            <li class="nav-item"> <a class="nav-link" href="Criticalreminderpagesacademic.html">Create Critical Reminder</a></li>
+            <li class="nav-item"> <a class="nav-link" href="Popuptriggersetupformacademic.html">Popup Trigger</a></li>
+            <li class="nav-item"> <a class="nav-link" href="Emailnotificationsetupacademic.html">Email Notification</a></li>
+          </ul>
+        </div>
+      </li>
+          </ul>
+        </nav>
+     
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="page-header">
+              <h3 class="page-title">Critical Portal</h3>
+             
+            </div>
+            <div class="row">
+              <div class="col-md-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Popup Trigger Form</h4>
+                   
+                    <form class="forms-sample">
+                      
+                      <div class="form-group">
+                        <label for="Reccurrring">Enable Popup Reminder</label>
+                        <input type="checkbox" id="Reccurring">
+                      </div>
+                      <div class="form-group">
+                        <label for="priority">Popup frequiency</label>
+                       <select class="form-control">
+                        <option>Daily</option>
+                        <option>Weekly</option>
+                        <option>Custom</option>
+                        
+                       </select>
+                
+                      </div>
+                     <button type="submit" class="btn btn-gradient-primary me-2">Submit</button>
+                      <button class="btn btn-light">Cancel</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+  
+          <footer class="footer">
+            <div class="container-fluid d-flex justify-content-between">
+              <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">Copyright </span>
+   </div>
+          </footer>
+          
+        </div>
+    
+      </div>
+ 
+    </div>
+   
+    <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
+
+    <script src="../../assets/js/off-canvas.js"></script>
+    <script src="../../assets/js/hoverable-collapse.js"></script>
+    <script src="../../assets/js/misc.js"></script>
+   
+    <script src="../../assets/js/file-upload.js"></script>
+   
+  </body>
+</html>
